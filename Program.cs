@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string EnterText(string MessageForUser)//метод для ввода текста и вывода сообщения с просьбой ввести текст
+{
+    Console.WriteLine(MessageForUser);
+    string TempText = Console.ReadLine();
+    return TempText;
+}
