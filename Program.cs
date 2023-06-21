@@ -20,3 +20,17 @@ string[] EnterTextArray(string MessageForUser)//меняю размер масс
     }
     return array;
 }
+string[] CreateArrayWithThreeSymbol(string[] FirstArray)//этот метод возвращает массив, в котором будут записаны только строки длиной равной или меньшей 3-м символам
+{
+    string[] array = Array.Empty<string>();
+    for (int FindStep = 0; FindStep < FirstArray.Length; FindStep++)
+    {
+        string CurrentString = FirstArray[FindStep];
+        if (CurrentString.Length <= 3)
+        {
+            Array.Resize(ref array, array.Length + 1);
+            array[array.Length - 1] = CurrentString; //учитывая, что строки всё время будут записываться в новую ячейку, которая была добавлена строчкой выше, тут можно и без дополнительных переменных обойтись, просто опираясь на длину массива
+        }
+    }
+    return array;
+}
