@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2023-06-19T12:31:22.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4Q_b6ae7BBIm4XIuMDwI" version="21.5.0" type="device">
+  <diagram name="Страница 1" id="UivbmmkwuAs9GpJyH-l_">
+    <mxGraphModel dx="2261" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-1" target="m49XzOQiLFMsZ3oe7-xP-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="384" y="10" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-2" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="384" y="585" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-3" target="m49XzOQiLFMsZ3oe7-xP-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-3" value="TextArray[“Hello”, “2”, “world”, “:-)”]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="297" y="60" width="234" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-4" target="m49XzOQiLFMsZ3oe7-xP-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-4" value="step = 0&lt;br&gt;TextLength = 3&lt;br&gt;ResultArray[] = array.empty" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="337" y="130" width="154" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-8" target="m49XzOQiLFMsZ3oe7-xP-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-23" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-8" target="m49XzOQiLFMsZ3oe7-xP-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-8" value="step &amp;lt; TextArray.Length" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="329" y="210" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-15" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-10" target="m49XzOQiLFMsZ3oe7-xP-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-18" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-10" target="m49XzOQiLFMsZ3oe7-xP-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-10" value="TextArray[step] &amp;lt;= TextLength&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="81" y="210" width="199" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-12" value="В программе будет реализован ввод массива любой длины, тут для наглядности создал массив с содержимым из примера" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-13" value="Правило CA1825: Избегайте выделения массивов нулевой длины&lt;br&gt;но мне нужен массив, который в последствии будет расширяться так что я использую описанное Microsoft решение в виде array.empty" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="497" y="150" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-14" target="m49XzOQiLFMsZ3oe7-xP-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-129" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-14" value="Array.Resize(ref ResultArray, ResultArray.Length+1)&lt;br&gt;ResultArray[step] = TextArray[step]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="230" width="290.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-16" target="m49XzOQiLFMsZ3oe7-xP-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-16" value="step++" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="145.5" y="330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-31" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-21" target="m49XzOQiLFMsZ3oe7-xP-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-33" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-21" target="m49XzOQiLFMsZ3oe7-xP-2" edge="1">
+          <mxGeometry x="-0.7929" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="440" />
+              <mxPoint x="530" y="530" />
+              <mxPoint x="414" y="530" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-21" value="PrintStep &amp;lt; ResultArray.Length" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317" y="400" width="194" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-22" target="m49XzOQiLFMsZ3oe7-xP-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="360" />
+              <mxPoint x="414" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-22" value="PrintStep = 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="240" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-24" value="Я бы мог просто обнулить переменную step, но это ухудшит читаемость так что использую отдельную переменную" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="250" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-27" target="m49XzOQiLFMsZ3oe7-xP-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="430" />
+              <mxPoint x="120" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ResultArray[PrintStep]&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="415" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m49XzOQiLFMsZ3oe7-xP-29" target="m49XzOQiLFMsZ3oe7-xP-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m49XzOQiLFMsZ3oe7-xP-29" value="PrintStep++" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="500" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
