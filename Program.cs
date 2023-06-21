@@ -34,3 +34,25 @@ string[] CreateArrayWithThreeSymbol(string[] FirstArray)//этот метод в
     }
     return array;
 }
+void PrintArray(string[] array, string SuccessMessage, string FailMessage)
+{
+    if (array.Length > 0)
+    {
+        Console.WriteLine(SuccessMessage);//Массив со строками длинной меньшей или равной 3-м:
+        for (int PrintStep = 0; PrintStep < array.Length; PrintStep++)
+        {
+            if (PrintStep < array.Length-1)
+            {
+                Console.Write($"{array[PrintStep]}; ");
+            }
+            else
+            {
+                Console.Write($"{array[PrintStep]} ");
+            }
+        }
+    }
+    else
+    {
+        Console.WriteLine(FailMessage);//Не введено ни одной строки короче или равной 3-м символам.
+    }
+}
