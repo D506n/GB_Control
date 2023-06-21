@@ -56,3 +56,8 @@ void PrintArray(string[] array, string SuccessMessage, string FailMessage)
         Console.WriteLine(FailMessage);//Не введено ни одной строки короче или равной 3-м символам.
     }
 }
+string[] TextArray = EnterTextArray("Введите текст, и нажмите Enter. Если весь необходимый текст уже введён, то нажмите Enter оставив поле ввода пустым: ");
+string[] ResultArray = CreateArrayWithThreeSymbol(TextArray);
+PrintArray(ResultArray, "Массив со строками длинной меньшей или равной 3-м:", "Не введено ни одной строки короче или равной 3-м символам.");
+Console.WriteLine();
+Console.ReadKey();
